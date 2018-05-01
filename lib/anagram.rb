@@ -14,6 +14,7 @@ class Anagram
       else
         nil
       end
+      ar_word
     end
   end
   
