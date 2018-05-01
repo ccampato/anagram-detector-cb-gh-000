@@ -8,14 +8,14 @@ class Anagram
   end
 
   def match(ar)
+    answer = []
     ar.each do |ar_word|
       if ar_word.scan(/\w/).sort == @word.scan(/\w/).sort
-        ar_word
+        answer << ar_word
       else
         nil
       end
-      ar_word
     end
   end
-  
+
 end
