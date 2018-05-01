@@ -10,11 +10,7 @@ class Anagram
   def match(ar)
     answer = []
     ar.each do |ar_word|
-      if ar_word.scan(/\w/).sort == @word.scan(/\w/).sort
-        answer << ar_word
-      else
-        nil
-      end
+      answer << ar_word if ar_word.scan(/\w/).sort == @word.scan(/\w/).sort  
     end
     answer
   end
