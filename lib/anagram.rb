@@ -10,7 +10,7 @@ class Anagram
   def match(ar)
     anagr = []
     ar.each do |ar_word|
-      anagr << ar_word.split
+      anagr << ar_word
       binding.pry
 
     end
