@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match(ar)
-    anagr = []
+    anagr = ""
     ar.each do |ar_word|
       anagr << ar_word
       binding.pry
