@@ -16,6 +16,7 @@ class Anagram
         nil
       end
     end
+    answer
   end
 
 end
